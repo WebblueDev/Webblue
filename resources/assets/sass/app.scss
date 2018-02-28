@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import "bulma";
+
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#wb-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  transition: all 0.3s ease;
+  z-index: 999;
+
+  &:not(.is-primary){
+    background: white;
+    box-shadow: 0 0px 2px 1px rgba(52, 100, 138, 0.12);
+
+    .logo {
+      visibility: visible;
+    }
+  }
+  .logo {
+    font-weight: 600;
+    font-size: 1.1em;
+    visibility: hidden;
+    img{
+      height: 40px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+  }
+}
+
+#wb-main {
+  height: 100%;
+  flex-grow: 1;
+}
+body:not(.page-index) #wb-main {
+  padding-top: 50px;
+}
+
+#wb-footer {
+  background-color: #1b579a;
+  padding: 1em;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: #eff7ff;
+  }
+}
+
+.hero-home-bg {
+  background: #1b579a url("/../images/code-header-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hero-home-logo {
+  height: 200px;
+}
+.me-image {
+  border-radius: 200px;
+  object-fit: cover;
+  width: 226px;
+  height: 226px;
+  border: 5px solid #124580;
+}
+
+.milestones {
+
+  .milestone {
+    padding: 1em;
+    background: #ffffff;
+    color: #a2a2a2;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 3px rgba(27, 86, 152, 0.08);
+
+    header {
+      margin-bottom: 0.5em;
+      color: #425469;
+    }
+    h3 {
+      margin: 0 0 0 0.3em;
+      color: #425469;
+    }
+  }
+}
+
+.projects {
+
+  .project {
+
+  }
+  .wrapper {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 3px rgba(27, 86, 152, 0.08);
+    color: #a2a2a2;
+
+    &:hover img {
+      transform: scale(1.1);
+    }
+  }
+  img {
+    object-fit: cover;
+    object-position: top;
+    height: 150px;
+    width: 100%;
+    transition: all .5s ease;
+    transform: translateZ(0); //img lag fix
+    display: block;
+  }
+  .body {
+    padding: 1em;
+    z-index: 2;
+    position: relative;
+    background: #fff;
+  }
+  h3 {
+    color: #425469;
+    margin-bottom: 0.5em;
+  }
+}
+
+.webpage-bg {
+  background: #eff7ff;
+}
+@media screen and (min-width: 1770px) {
+  .webpage-bg {
+    background: url("/../images/webpage-background-1.jpg") no-repeat left top,
+                url("/../images/webpage-background-2.jpg") no-repeat right bottom #eff7ff;
+  }
+}
+
+.blue-hr {
+  background: #e9edf1;
+}
+
+.has-bg-light-blue {
+  background: #eff7ff;
+}
+.is-aligned-center {
+  align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+  .hero.is-medium .hero-body {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+  }
+}
