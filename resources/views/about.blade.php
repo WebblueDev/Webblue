@@ -22,7 +22,7 @@
                     <h2 class="title">Moin Moin aus Hamburg</h2>
                     <div class="content">
                         <p>
-                            Ich bin Gründer sowie Inhaber von Webblue Media und somit genau der richtige Ansprechpartner für dich, wenn es um Aufträge geht. In den Bereichen Entwicklung sowie Design im World Wide Web fühle ich mich richtig aufgehoben und stecke meine ganze Passion in die Realisierung deines Projekts. Als ausgebildeter Fachinformatiker nehme ich jede Herausforderung an. Stellen mir deine Wünsche einfach vor!
+                            Ich bin Gründer sowie Inhaber von Webblue Media und somit genau der richtige Ansprechpartner für dich, wenn es um Aufträge geht. In den Bereichen Entwicklung sowie Design im World Wide Web fühle ich mich richtig aufgehoben und stecke meine ganze Passion in die Realisierung deiner Projekte. Als ausgebildeter Fachinformatiker nehme ich jede Herausforderung an. Stelle mir deine Wünsche einfach vor!
                         </p>
                         <p>
                             Was du von mir erwarten kannst? Ich bin zuverlässig, genau und lege einen großen Wert auf Perfektion! Manchmal vielleicht auch zu viel, aber perfekt ist besser als nur gut. Geboten wird dir bei Webblue Media ein professioneller und sicherer Umgang mit deinem Projekt. Wie genau das Ergebnis aussehen kann, kannst du an Hand der hier auf der Webseite ausgestellten Projekte sehen! Wenn dir gefällt, was du dort siehst, nimm gerne Kontakt mit mir auf.
