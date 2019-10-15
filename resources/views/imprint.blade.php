@@ -22,8 +22,8 @@
                     <div class="content">
                         <p>
                             Andreas Scholten<br>
-                            Thiedeweg 40<br>
-                            22047 Hamburg<br>
+                            Rungwisch 20b<br>
+                            22523 Hamburg<br>
                             Deutschland<br>
                             <br>
                             <b>Handy:</b> +49 151 41820727<br>
